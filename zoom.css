@@ -223,6 +223,7 @@ li a{
 
 #paragraph{
     font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 2em;
 }
 
 #paragraph h1{
@@ -248,6 +249,8 @@ li a{
     color: black;
 }
 
+
+
 #abaya-dropdown select{
     width: 50%;
     height: 5vh;
@@ -272,6 +275,7 @@ li a{
 #pattern{
     margin-top: 2em;
     margin-bottom: 2em;
+    border-top: 1px solid #EDC9AF;
 }
 
 
@@ -299,6 +303,9 @@ li a{
     text-decoration: none;
 }
 
+#quantity{
+    border-top: 1px solid #EDC9AF;
+}
 
 #quantity-box{
     display: grid;
@@ -364,7 +371,25 @@ li a{
 
 }
 
-#add {
+
+
+#additional p{
+    color: gray;
+}
+
+#add-details{
+    margin-top: 2em;
+    border-top: 1px solid #EDC9AF;
+}
+
+#add-input input{
+    width: 32vw;
+    height: 32vh;
+    -webkit-appearance: none;
+    border: 2px solid #EDC9AF;
+}
+
+#add-cart{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /*grid-template-rows: auto;*/
